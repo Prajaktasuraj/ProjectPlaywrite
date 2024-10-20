@@ -15,6 +15,7 @@ public class TestCase1 {
 		BrowserContext context_1 = browser.newContext();
 		Page page = context_1.newPage();
 		page.navigate("https://www.google.com");
+		page.navigate("https://www.facebook.com");
 		
 		playwright.close();
 	}
